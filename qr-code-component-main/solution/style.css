@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+:root{
+    Slate 300: hsl(212, 45%, 89%)
+    Slate 500: hsl(216, 15%, 48%)
+    Slate 900: hsl(218, 44%, 22%)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: hsl(212, 45%, 89%); */
+    font-family: "Outfit";
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+div{
+    background-color: white;
+    display: flexbox;
+    border-radius: 15px;
+    text-align: center;
+    text-wrap: wrap;
+    width: 320px;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.text-box{
+    padding: 10px 20px 20px;
+}
+
+h2{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 400;
+    /* margin-bottom: 30px; */
+}
